@@ -1,0 +1,16 @@
+server:
+  port: 8077
+
+spring:
+  codec:
+    max-in-memory-size: 10MB
+
+  data:
+    mongodb:
+      host: localhost
+      # uri: mongodb://localhost
+      database: fichtedb
+      password: example
+      username: root
+      port: 27017
+
